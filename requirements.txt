@@ -1,0 +1,17 @@
+### For Sound Recording Script ###
+
+pip install sounddevice
+pip install soundfile
+
+### For OpenAI's Whisper ###
+
+# Windows:
+choco upgrade chocolatey
+choco install ffmpeg
+
+# The following command will pull and install the latest commit from this repository, along with its Python dependencies:
+pip install git+https://github.com/openai/whisper.git
+
+# To update the package to the latest version of this repository, please run:
+pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+
