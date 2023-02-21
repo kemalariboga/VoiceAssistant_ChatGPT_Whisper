@@ -1,3 +1,5 @@
+# Python: 3.8.16
+
 ### For Sound Recording Script ###
 
 pip install sounddevice
@@ -15,3 +17,9 @@ pip install git+https://github.com/openai/whisper.git
 # To update the package to the latest version of this repository, please run:
 pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 
+### For ChatGPT_API ###
+
+git submodule init
+git submodule update
+cd ChatGPT_API
+python setup.py install

@@ -1,0 +1,3 @@
+[submodule "ChatGPT_API"]
+	path = ChatGPT_API
+	url = https://github.com/acheong08/ChatGPT.git
